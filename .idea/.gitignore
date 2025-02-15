@@ -5,3 +5,4 @@
 /httpRequests/
 /prettier.xml
 /inspectionProfiles/Project_Default.xml
+/jsLinters/eslint.xml

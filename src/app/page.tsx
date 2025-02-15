@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Button from "@/app/components/ui/button";
 
 export default function Home() {
   return (
@@ -87,7 +88,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          <Button>Go to nextjs.org →</Button>
         </a>
       </footer>
     </div>
