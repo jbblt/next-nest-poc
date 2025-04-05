@@ -1,17 +1,11 @@
 "use client";
 
-import { GetTrendingReposQueryResult } from "@/graphql/trendingRepos.generated";
-import { Repository } from "@/types/types.generated";
 import RepositoryCard from "@/components/rsc/Repository";
 import styled from "styled-components";
 
-export const RSCGithubTrendingRepos = ({
-  trendRepos,
-}: {
-  trendRepos: GetTrendingReposQueryResult["data"];
-}) => {
+export const RSCGithubTrendingRepos = ({ trendRepos }: { trendRepos: any }) => {
   const repositories = trendRepos?.search.nodes as unknown as Array<
-    Repository | undefined
+    any | undefined
   >;
   return (
     <div>

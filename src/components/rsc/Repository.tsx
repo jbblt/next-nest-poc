@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Repository } from "@/types/types.generated";
 
 const Card = styled.div`
   background: ${({ theme }) => theme.backgroundColors.card};
@@ -72,7 +71,7 @@ const ForkIcon = styled.span`
 const RepositoryCard = ({
   repository: { stargazerCount, description, url, name, forkCount },
 }: {
-  repository: Repository;
+  repository: any;
 }) => {
   return (
     <Card>
