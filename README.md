@@ -9,7 +9,7 @@
 
 ```
 next-nest-portfolio/
-├── frontend/     ← Next.js (App Router, Apollo Client)
+├── frontend/     ← Next.js (App Router)
 ├── backend/      ← NestJS API (GraphQL + Prisma + Supabase)
 ```
 
@@ -23,7 +23,7 @@ next-nest-portfolio/
 
 | Layer       | Stack                                         |
 |-------------|-----------------------------------------------|
-| Frontend    | Next.js (App Router), TypeScript, Apollo      |
+| Frontend    | Next.js (App Router), TypeScript      |
 | Backend     | NestJS, GraphQL, Prisma                       |
 | Database    | Supabase PostgreSQL                           |
 | Styling     | Styled-Components, custom UI kit              |
@@ -41,20 +41,17 @@ next-nest-portfolio/
 ### 🔹 Backend (NestJS API)
 - [x] Prisma connecté à Supabase
 - [x] CRUD GraphQL pour Task (create/read/update/delete)
-- [ ] Validation des inputs + enums status
-- [ ] Authentification simple (à venir)
+- [X] Validation des inputs + enums status
+- [X] Authentification simple with credentials
 - [ ] Abonnements GraphQL (WebSocket)
 
 ### 🔹 Frontend (Next.js)
-- [x] Intégration Apollo Client (SSR)
 - [x] Affichage des Tasks via SSR
-- [ ] Mutation createTask
+- [X] Mutation createTask
 - [ ] Mutation updateTask
-- [ ] Mutation deleteTask
-- [x] UI Dashboard avec design futuriste
-- [x] Ajout d'un relief visuel sur les Widgets Task
-- [x] Formulaire de mise à jour des tâches
-- [ ] Formulaire de login (email + password + SSO)
+- [X] Mutation deleteTask
+- [x] UI Dashboard design
+- [X] Login Form (email + password & SSO)
 
 
 ### 🧠 IA & Analyse de Données
